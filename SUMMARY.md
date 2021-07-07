@@ -31,5 +31,6 @@
 
 * [Posts](pages/posts/README.md)
   * [Converting VMX to an OVA](pages/posts/converting-vmx-to-an-ova.md)
+  * [Linux Commands](pages/posts/linux-commands.md)
 * [About](pages/about.md)
 
