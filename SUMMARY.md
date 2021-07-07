@@ -27,6 +27,8 @@
 * [Persistence](persistence/README.md)
   * [Untitled](persistence/untitled.md)
 * [Linux Commands](linux-commands.md)
+* [Network](network/README.md)
+  * [Nmap](network/nmap.md)
 
 ## Pages
 
