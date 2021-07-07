@@ -13,6 +13,8 @@
   * [Windows](post-exploitation/windows.md)
   * [Linux](post-exploitation/linux.md)
   * [Reverse Shell](post-exploitation/reverse-shell.md)
+* [Privilege Escalation](privilege-escalation/README.md)
+  * [Linux](privilege-escalation/linux.md)
 * [Forensics](forensics/README.md)
   * [PDF Forensics](forensics/pdf-forensics.md)
   * [Volatility](forensics/volatility.md)
