@@ -26,11 +26,11 @@
   * [Untitled](exploitation/untitled.md)
 * [Persistence](persistence/README.md)
   * [Untitled](persistence/untitled.md)
+* [Linux Commands](linux-commands.md)
 
 ## Pages
 
 * [Posts](pages/posts/README.md)
   * [Converting VMX to an OVA](pages/posts/converting-vmx-to-an-ova.md)
-  * [Linux Commands](pages/posts/linux-commands.md)
 * [About](pages/about.md)
 

@@ -1,6 +1,6 @@
 # Linux Commands
 
-#### Linux Network Commands <a id="linux-network-commands"></a>
+## Linux Network Commands
 
 | COMMAND | DESCRIPTION |
 | :--- | :--- |
@@ -22,7 +22,7 @@
 | `echo "1" > /proc/sys/net/ipv4/ip_forward` | Enables IP forwarding, turns Linux box into a router - handy for routing traffic through a box. |
 | `echo "8.8.8.8" > /etc/resolv.conf` | Use Google DNS. |
 
-#### System Information Commands <a id="system-information-commands"></a>
+## System Information Commands
 
 Useful for local enumeration.
 
@@ -40,7 +40,7 @@ Useful for local enumeration.
 | `PATH=$PATH:/my/new-path` | Add a new PATH, handy for local FS manipulation. |
 | `history` | Show bash history, commands the user has entered previously. |
 
-**Redhat / CentOS / RPM Based Distros**
+## **Redhat / CentOS / RPM Based Distros**
 
 | COMMAND | DESCRIPTION |
 | :--- | :--- |
@@ -48,7 +48,7 @@ Useful for local enumeration.
 | `rpm -qa` | List all installed RPM's on an RPM based Linux distro. |
 | `rpm -q --changelog openvpn` | Check installed RPM is patched against CVE, grep the output for CVE. |
 
-**YUM Commands**
+## **YUM Commands**
 
 Package manager used by RPM based systems, you can pull some usefull information about installed packages and or install additional tools.
 
@@ -69,7 +69,7 @@ Package manager used by RPM based systems, you can pull some usefull information
 | `yum grouplist | more` | Show all YUM groups. |
 | `yum groupinstall 'Development Tools'` | Install YUM group. |
 
-**Debian / Ubuntu / .deb Based Distros**
+## **Debian / Ubuntu / .deb Based Distros**
 
 | COMMAND | DESCRIPTION |
 | :--- | :--- |
@@ -77,7 +77,7 @@ Package manager used by RPM based systems, you can pull some usefull information
 | `cat /etc/*-release` | Shows Ubuntu version number. |
 | `dpkg -l` | List all installed packages on Debian / .deb based Linux distro. |
 
-#### Linux User Management <a id="linux-user-management"></a>
+## Linux User Management
 
 | COMMAND | DESCRIPTION |
 | :--- | :--- |
@@ -85,7 +85,7 @@ Package manager used by RPM based systems, you can pull some usefull information
 | `passwd username` | Reset Linux user password, enter just `passwd` if you are root. |
 | `deluser username` | Remove a Linux user. |
 
-#### Linux Decompression Commands <a id="linux-decompression-commands"></a>
+## Linux Decompression Commands
 
 How to extract various archives \(tar, zip, gzip, bzip2 etc\) on Linux and some other tricks for searching inside of archives etc.
 
@@ -104,7 +104,7 @@ How to extract various archives \(tar, zip, gzip, bzip2 etc\) on Linux and some 
 | `vim file.txt.gz` | Use vim to read .txt.gz files \(my personal favorite\). |
 | `upx -9 -o output.exe input.exe` | UPX compress .exe file Linux. |
 
-#### Linux Compression Commands <a id="linux-compression-commands"></a>
+## Linux Compression Commands
 
 | COMMAND | DESCRIPTION |
 | :--- | :--- |
@@ -114,7 +114,7 @@ How to extract various archives \(tar, zip, gzip, bzip2 etc\) on Linux and some 
 | `tar cjf archive.tar.bz2 files` | Creates a tar.bz2 file on Linux. |
 | `gzip file` | Creates a file.gz file on Linux. |
 
-#### Linux File Commands <a id="linux-file-commands"></a>
+## Linux File Commands
 
 | COMMAND | DESCRIPTION |
 | :--- | :--- |
@@ -129,7 +129,7 @@ How to extract various archives \(tar, zip, gzip, bzip2 etc\) on Linux and some 
 | `touch -r ref-file new-file` | Creates a new file using the timestamp data from the reference file, drop the -r to simply create a file. |
 | `rm -rf` | Remove files and directories without prompting for confirmation. |
 
-#### Samba Commands <a id="samba-commands"></a>
+## Samba Commands
 
 Connect to a Samba share from Linux.
 
@@ -139,25 +139,25 @@ $ smbclient -U user \\\\server\\share
 $ mount -t cifs -o username=user,password=password //x.x.x.x/share /mnt/share
 ```
 
-#### Breaking Out of Limited Shells <a id="breaking-out-of-limited-shells"></a>
+## Breaking Out of Limited Shells
 
 Credit to G0tmi1k for these \(or wherever he stole them from!\).
 
 The Python trick:
 
-```text
+```bash
 python -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
-```text
+```bash
 echo os.system('/bin/bash')
 ```
 
-```text
+```bash
 /bin/sh -i
 ```
 
-#### Misc Commands <a id="misc-commands"></a>
+## Misc Commands
 
 | COMMAND | DESCRIPTION |
 | :--- | :--- |
@@ -177,7 +177,7 @@ Clear bash history:
       $ ssh user@X.X.X.X | cat /dev/null > ~/.bash_history
 ```
 
-#### Linux File System Permissions <a id="linux-file-system-permissions"></a>
+## Linux File System Permissions
 
 | VALUE | MEANING |
 | :--- | :--- |
@@ -188,7 +188,7 @@ Clear bash history:
 | `644` | `rw-r--r--` Owner can read and write, everyone else can read. |
 | `600` | `rw-------` Owner can read and write, everyone else has no access. |
 
-#### Linux File System <a id="linux-file-system"></a>
+## Linux File System
 
 | DIRECTORY | DESCRIPTION |
 | :--- | :--- |
@@ -211,7 +211,7 @@ Clear bash history:
 | `/usr` | Programs, libraries, documentation etc. for all user-related programs. |
 | `/var` | Storage for all variable files and temporary files created by users, such as log files, mail queue, print spooler. Web servers, Databases etc. |
 
-#### Linux Interesting Files / Dir’s <a id="linux-interesting-files--dirs"></a>
+## Linux Interesting Files / Dir’s
 
 Places that are worth a look if you are attempting to privilege escalate / perform post exploitation.
 
