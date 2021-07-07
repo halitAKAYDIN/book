@@ -18,9 +18,12 @@
   * [Volatility](forensics/volatility.md)
 * [Steganography](steganography/README.md)
   * [Steghide](steganography/steghide.md)
-* [Reversing](reversing.md)
-* [Exploitation](exploitation.md)
-* [Persistence](persistence.md)
+* [Reversing](reversing/README.md)
+  * [Untitled](reversing/untitled.md)
+* [Exploitation](exploitation/README.md)
+  * [Untitled](exploitation/untitled.md)
+* [Persistence](persistence/README.md)
+  * [Untitled](persistence/untitled.md)
 
 ## Pages
 
