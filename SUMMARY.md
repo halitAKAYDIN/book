@@ -21,7 +21,7 @@
 * [Steganography](steganography/README.md)
   * [Steghide](steganography/steghide.md)
 * [Reversing](reversing/README.md)
-  * [Untitled](reversing/untitled.md)
+  * [Radare2](reversing/untitled.md)
 * [Exploitation](exploitation/README.md)
   * [Untitled](exploitation/untitled.md)
 * [Persistence](persistence/README.md)
