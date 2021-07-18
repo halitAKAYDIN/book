@@ -16,12 +16,6 @@ Extracts embedded data from a file
 steghide extract -sf example.jpg
 ```
 
-Extracts embedded data from a file using password
-
-```bash
-steghide embed -ef rockyou.txt -cf example.jpg
-```
-
 For more
 
 ```bash
